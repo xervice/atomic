@@ -1,6 +1,6 @@
 <?php
 
-namespace XerviceTest\Gui;
+namespace XerviceTest\Atomic;
 
 use Xervice\Core\Locator\Locator;
 use Xervice\Twig\TwigFacade;
@@ -24,12 +24,12 @@ class IntegrationTest extends \Codeception\Test\Unit
 
     /**
      * @group Xervice
-     * @group Gui
+     * @group Atomic
      * @group Integration
      */
     public function testRenderTemplates()
     {
-        $response = $this->getTwigFacade()->render('@Gui/pages/index.twig');
+        $response = $this->getTwigFacade()->render('@Atomic/pages/index.twig');
         $this->assertEquals(
             'Layout    Test    molecule',
             $response

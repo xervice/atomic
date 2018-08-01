@@ -2,16 +2,16 @@
 declare(strict_types=1);
 
 
-namespace Xervice\Gui\Business\Twig\Extension\Node;
+namespace Xervice\Atomic\Business\Twig\Extension\Node;
 
 
 use Twig_Compiler;
 use Twig_Node_Expression;
 
-class XerviceGuiSettingNode extends \Twig_Node
+class XerviceAtomicSettingNode extends \Twig_Node
 {
     /**
-     * XerviceGuiSettingNode constructor.
+     * XerviceAtomicSettingNode constructor.
      *
      * @param $name
      * @param \Twig_Node_Expression $value

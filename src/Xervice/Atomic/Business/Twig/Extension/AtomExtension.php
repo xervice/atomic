@@ -2,14 +2,14 @@
 declare(strict_types=1);
 
 
-namespace Xervice\Gui\Business\Twig\Extension;
+namespace Xervice\Atomic\Business\Twig\Extension;
 
 
 class AtomExtension extends \Twig_Extension
 {
     protected const FUNCTION_NAME = 'atom';
 
-    protected const ATOM_MODULE = 'Gui';
+    protected const ATOM_MODULE = 'Atomic';
 
     /**
      * @return array|\Twig_Function[]

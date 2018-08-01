@@ -2,14 +2,14 @@
 declare(strict_types=1);
 
 
-namespace Xervice\Gui\Business\Twig\Extension;
+namespace Xervice\Atomic\Business\Twig\Extension;
 
 
 class TemplateExtension extends \Twig_Extension
 {
     protected const FUNCTION_NAME = 'template';
 
-    protected const MODULE = 'Gui';
+    protected const MODULE = 'Atomic';
 
     /**
      * @return array|\Twig_Function[]

@@ -2,11 +2,11 @@
 declare(strict_types=1);
 
 
-namespace Xervice\Gui\Business\Twig\Extension;
+namespace Xervice\Atomic\Business\Twig\Extension;
 
 
 use Twig_Token;
-use Xervice\Gui\Business\Twig\Extension\Node\XerviceGuiSettingNode;
+use Xervice\Atomic\Business\Twig\Extension\Node\XerviceAtomicSettingNode;
 
 class SettingParser extends \Twig_TokenParser
 {
@@ -20,7 +20,7 @@ class SettingParser extends \Twig_TokenParser
         $value = $parser->getExpressionParser()->parseExpression();
         $stream->expect(Twig_Token::BLOCK_END_TYPE);
 
-        return new XerviceGuiSettingNode($name, $value, $token->getLine(), $this->getTag());
+        return new XerviceAtomicSettingNode($name, $value, $token->getLine(), $this->getTag());
     }
 
     /**

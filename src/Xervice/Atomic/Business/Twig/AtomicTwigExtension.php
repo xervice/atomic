@@ -2,15 +2,15 @@
 declare(strict_types=1);
 
 
-namespace Xervice\Gui\Business\Twig;
+namespace Xervice\Atomic\Business\Twig;
 
 
-use Xervice\Gui\Business\Twig\Extension\AtomExtension;
-use Xervice\Gui\Business\Twig\Extension\MoleculeExtension;
-use Xervice\Gui\Business\Twig\Extension\OrganismExtension;
-use Xervice\Gui\Business\Twig\Extension\PageExtension;
-use Xervice\Gui\Business\Twig\Extension\SettingParser;
-use Xervice\Gui\Business\Twig\Extension\TemplateExtension;
+use Xervice\Atomic\Business\Twig\Extension\AtomExtension;
+use Xervice\Atomic\Business\Twig\Extension\MoleculeExtension;
+use Xervice\Atomic\Business\Twig\Extension\OrganismExtension;
+use Xervice\Atomic\Business\Twig\Extension\PageExtension;
+use Xervice\Atomic\Business\Twig\Extension\SettingParser;
+use Xervice\Atomic\Business\Twig\Extension\TemplateExtension;
 use Xervice\Twig\Business\Twig\Extensions\TwigExtensionInterface;
 
 class AtomicTwigExtension implements TwigExtensionInterface

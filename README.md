@@ -1,21 +1,21 @@
-Gui
+Atomic
 =====================
 
-[![Build Status](https://travis-ci.org/xervice/gui.svg?branch=master)](https://travis-ci.org/xervice/gui)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/xervice/gui/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/xervice/gui/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/xervice/gui/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/xervice/gui/?branch=master)
+[![Build Status](https://travis-ci.org/xervice/atomic.svg?branch=master)](https://travis-ci.org/xervice/atomic)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/xervice/atomic/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/xervice/atomic/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/xervice/atomic/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/xervice/atomic/?branch=master)
 
 
 Installation
 -----------------
-Register gui twig extension for atomic design in the TwigDependencyProvider.
+Register atomic twig extension for atomic design in the TwigDependencyProvider.
 
 ```php
 <?php
 
 namespace App\Twig;
 
-use Xervice\Gui\Business\Twig\AtomicTwigExtension;
+use Xervice\Atomic\Business\Twig\AtomicTwigExtension;
 use Xervice\Twig\TwigDependencyProvider as XerviceTwigDependencyProvider;
 
 class TwigDependencyProvider extends XerviceTwigDependencyProvider
