@@ -1,7 +1,9 @@
 Gui
 =====================
 
-[![Build Status](https://travis-ci.org/xervice/gui).svg?branch=master)](https://travis-ci.org/xervice/gui)
+[![Build Status](https://travis-ci.org/xervice/gui.svg?branch=master)](https://travis-ci.org/xervice/gui)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/xervice/gui/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/xervice/gui/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/xervice/gui/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/xervice/gui/?branch=master)
 
 
 Installation
