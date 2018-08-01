@@ -1,0 +1,12 @@
+{% extends '@Gui/layout/test.twig' %}
+
+{% block body %}
+    {% embed atom('atom') with {
+        data: {
+            name: 'Test'
+        }
+    } %}
+        {% block body %}{{ data.name }}{% endblock %}
+    {% endembed %}
+    {% embed molecule('test', 'Test') %}{% endembed %}
+{% endblock %}
