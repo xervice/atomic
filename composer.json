@@ -9,12 +9,13 @@
   ],
   "require-dev": {
     "codeception/codeception": "*",
-    "symfony/var-dumper": "*"
+    "symfony/var-dumper": "*",
+    "phpstan/phpstan": "*"
   },
   "require": {
     "php": ">=7.1.0",
-    "xervice/twig": "^2.0.0",
-    "twig/extensions": "^1.5.2"
+    "xervice/twig": "^3.0.0",
+    "twig/extensions": "^1.5.0"
   },
   "autoload": {
     "psr-4": {

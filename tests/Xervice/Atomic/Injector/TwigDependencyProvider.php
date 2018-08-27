@@ -2,7 +2,7 @@
 
 namespace App\Twig;
 
-use Xervice\Atomic\Business\Twig\AtomicTwigExtension;
+use Xervice\Atomic\Communication\Twig\AtomicTwigExtension;
 use Xervice\Twig\TwigDependencyProvider as XerviceTwigDependencyProvider;
 
 class TwigDependencyProvider extends XerviceTwigDependencyProvider

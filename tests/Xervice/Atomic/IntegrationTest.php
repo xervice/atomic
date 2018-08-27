@@ -2,26 +2,13 @@
 
 namespace XerviceTest\Atomic;
 
-use Xervice\Core\Locator\Locator;
-use Xervice\Twig\TwigFacade;
+use Xervice\Core\Business\Model\Locator\Locator;
+use Xervice\Twig\Business\TwigFacade;
 
 require_once __DIR__ . '/Injector/TwigDependencyProvider.php';
 
 class IntegrationTest extends \Codeception\Test\Unit
 {
-    /**
-     * @var \XerviceTest\XerviceTester
-     */
-    protected $tester;
-
-    protected function _before()
-    {
-    }
-
-    protected function _after()
-    {
-    }
-
     /**
      * @group Xervice
      * @group Atomic
@@ -37,7 +24,7 @@ class IntegrationTest extends \Codeception\Test\Unit
     }
 
     /**
-     * @return \Xervice\Twig\TwigFacade
+     * @return \Xervice\Twig\Business\TwigFacade
      */
     private function getTwigFacade(): TwigFacade
     {

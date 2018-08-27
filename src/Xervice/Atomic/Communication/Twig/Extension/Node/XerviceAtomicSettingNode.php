@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 
-namespace Xervice\Atomic\Business\Twig\Extension\Node;
+namespace Xervice\Atomic\Communication\Twig\Extension\Node;
 
 
 use Twig_Compiler;

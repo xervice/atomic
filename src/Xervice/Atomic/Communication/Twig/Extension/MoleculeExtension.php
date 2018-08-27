@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 
-namespace Xervice\Atomic\Business\Twig\Extension;
+namespace Xervice\Atomic\Communication\Twig\Extension;
 
 
 class MoleculeExtension extends \Twig_Extension

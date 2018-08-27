@@ -2,11 +2,11 @@
 declare(strict_types=1);
 
 
-namespace Xervice\Atomic\Business\Twig\Extension;
+namespace Xervice\Atomic\Communication\Twig\Extension;
 
 
 use Twig_Token;
-use Xervice\Atomic\Business\Twig\Extension\Node\XerviceAtomicSettingNode;
+use Xervice\Atomic\Communication\Twig\Extension\Node\XerviceAtomicSettingNode;
 
 class SettingParser extends \Twig_TokenParser
 {
